@@ -3,7 +3,7 @@ import { AppContext } from "./App_Context";
 import axios from "axios";
 
 const App_State = (props) => {
-  const url = "https://mern-recipe-internship.onrender.com";
+  const url = "https://mern-recipe-internship.onrender.com/backend1";
 
   const [token, setToken] = useState("");
   const [recipe, setrecipe] = useState([]);
