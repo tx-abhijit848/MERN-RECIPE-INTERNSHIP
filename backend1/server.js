@@ -16,9 +16,9 @@ app.use(cors(
 ));
 
 //userRouter
-app.use('/api', userRouter);
+app.use('/backend1', userRouter);
 //recipeRouter
-app.use('/api', recipeRouter);
+app.use('/backend1', recipeRouter);
 mongoose
   .connect(
     "mongodb+srv://abhijitnandi189:UFWmlK2z3jXSpeco@cluster0.1bdz7.mongodb.net/",
